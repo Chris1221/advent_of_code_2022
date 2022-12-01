@@ -1,2 +1,3 @@
-from .cli import cli
-from . import day_1
+from pkg_resources import get_distribution
+
+__version__ = get_distribution("advent_of_code").version
